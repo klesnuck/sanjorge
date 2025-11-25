@@ -8,7 +8,7 @@ function Servicios() {
   return (
     <section className="p-8">
       <h1 className="text-3xl font-bold text-blue-600 mb-6 text-center">
-        Nuestros Servicios
+         Servicios a Cotizar
       </h1>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

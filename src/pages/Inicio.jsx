@@ -31,12 +31,14 @@ return () => clearInterval(intervalo);
     <section className="w-full">
 
       {/* HERO SIN CONTENEDORES LATERALES */}
-      <div className="w-full overflow-hidden shadow-lg">
+      <div className="w-full overflow-hidden shadow-lg relative">
         <img
           src={imagenes[index]}
           className={`w-full h-56 sm:h-72 md:h-[50vh] lg:h-[60vh] object-cover object-center transition-opacity duration-700 ease-in-out ${fade ? "opacity-100" : "opacity-0"}`}
           alt="Taller San Jorge"
         />
+        {/*degradado de la imagen*/}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/70 pointer-events-none"></div>
       </div>
        {/* Bienvenidos */}
           <div className="text-center mt-10 px-4">
